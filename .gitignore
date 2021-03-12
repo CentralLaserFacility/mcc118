@@ -1,0 +1,22 @@
+**envPaths
+**/configure/O.*/
+**/*App/Db/O.*/
+**/*App/src/O.*/
+**/dbd/
+**/bin/
+**/db/
+!**/*App/Db/
+**.log
+**.sav*
+**/.metadata/*
+**BOY Examples*
+**BOY Image Library/*
+
+**.*~
+
+opi/pvs.conf
+opi/select_cam.opi
+**/.metadata
+
+# Ignore Visual Studio Code config files 
+**/.vscode/ 

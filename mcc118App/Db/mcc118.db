@@ -1,0 +1,6 @@
+record(ai, "$(PVPREFIX):HA$(HA):CH$(CH)"){
+field(DTYP, "devMcc118")
+field(INP, "#C$(HA) S$(CH) @whatever")
+# field(SCAN, "$(SCAN)") # do not scan, let the converting calc record scan and PP the connected INP
+field(PREC, "2")
+}

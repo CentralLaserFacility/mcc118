@@ -1,0 +1,1 @@
+device(ai, VME_IO, devMcc118, "devMcc118")
