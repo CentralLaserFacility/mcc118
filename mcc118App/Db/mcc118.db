@@ -1,6 +1,14 @@
 record(ai, "$(PVPREFIX):HA$(HA):CH$(CH)"){
+  field(VAL, "0")
+  field(PINI, "YES")
   field(DTYP, "devMcc118")
-  field(INP, "#C$(HA) S$(CH) @whatever")
+  field(INP, "#C$(HA) S$(CH) @parm")
   field(SCAN, "$(SCAN)")
+  field(EGU, "V")
   field(PREC, "2")
+  field(PHAS, 0)
+  field("LOW", -5)
+  field("HIGH", 5)
+  field("LOLO", -9)
+  field("HIHI", 9)
 }
