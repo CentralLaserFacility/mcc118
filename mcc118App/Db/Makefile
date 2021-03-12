@@ -10,9 +10,7 @@ include $(TOP)/configure/CONFIG
 #----------------------------------------------------
 # Create and install (or just install) into <top>/db
 # databases, templates, substitutions like this
-#DB += xxx.db
 DB += mcc118.db
-DB += channelmapping.db
 
 #----------------------------------------------------
 # If <anyname>.db template is not named <anyname>*.template add
