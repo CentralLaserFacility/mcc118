@@ -16,14 +16,14 @@ mcc118_registerRecordDeviceDriver pdbbase
 #dbLoadTemplate "db/user.substitutions"
 #dbLoadTemplate "db/mccVersion.db", "user=pi"
 
-dbLoadRecords("db/mcc118.db","PVPREFIX=${PVPREFIX}, HA=0, CH=0, SCAN=1 second")
-dbLoadRecords("db/mcc118.db","PVPREFIX=${PVPREFIX}, HA=0, CH=1, SCAN=1 second")
-#dbLoadRecords("db/mcc118.db","PVPREFIX=${PVPREFIX}, HA=0, CH=2")
-#dbLoadRecords("db/mcc118.db","PVPREFIX=${PVPREFIX}, HA=0, CH=3")
-#dbLoadRecords("db/mcc118.db","PVPREFIX=${PVPREFIX}, HA=0, CH=4")
-#dbLoadRecords("db/mcc118.db","PVPREFIX=${PVPREFIX}, HA=0, CH=5")
-#dbLoadRecords("db/mcc118.db","PVPREFIX=${PVPREFIX}, HA=0, CH=6") #not defined
-#dbLoadRecords("db/mcc118.db","PVPREFIX=${PVPREFIX}, HA=0, CH=7") #not defined
+dbLoadRecords("db/mcc118.db","PVPREFIX=${PVPREFIX}, HA=0, CH=0, SCAN=.1 second")
+dbLoadRecords("db/mcc118.db","PVPREFIX=${PVPREFIX}, HA=0, CH=1, SCAN=.1 second")
+dbLoadRecords("db/mcc118.db","PVPREFIX=${PVPREFIX}, HA=0, CH=2, SCAN=.1 second")
+dbLoadRecords("db/mcc118.db","PVPREFIX=${PVPREFIX}, HA=0, CH=3, SCAN=.1 second")
+dbLoadRecords("db/mcc118.db","PVPREFIX=${PVPREFIX}, HA=0, CH=4, SCAN=.1 second")
+dbLoadRecords("db/mcc118.db","PVPREFIX=${PVPREFIX}, HA=0, CH=5, SCAN=.1 second")
+dbLoadRecords("db/mcc118.db","PVPREFIX=${PVPREFIX}, HA=0, CH=6, SCAN=.1 second") 
+dbLoadRecords("db/mcc118.db","PVPREFIX=${PVPREFIX}, HA=0, CH=7, SCAN=.1 second") 
 
 dbLoadRecords("db/channelmapping.db", "P=CLFMCC, R=LLRFSRC")
 

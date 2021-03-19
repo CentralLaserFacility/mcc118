@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<display version="2.0.0">
+  <name>MCC118 8 Channel</name>
+  <macros>
+    <L>CH0</L>
+    <L2>CH1</L2>
+    <L3>CH2</L3>
+    <L4>CH3</L4>
+    <L5>CH4</L5>
+    <L6>CH5</L6>
+    <L7>CH6</L7>
+    <L8>CH7</L8>
+    <P>CLFMCC</P>
+  </macros>
+  <width>1200</width>
+  <height>750</height>
+  <widget type="embedded" version="2.0.0">
+    <name>edCh0</name>
+    <macros>
+      <L>CH0</L>
+      <N>0</N>
+      <P>CLFMCC:</P>
+    </macros>
+    <file>motorVoltPlot.bob</file>
+    <width>900</width>
+    <height>210</height>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>edCh_1</name>
+    <macros>
+      <L>CH1</L>
+      <N>1</N>
+      <P>CLFMCC:</P>
+    </macros>
+    <file>motorVoltPlot.bob</file>
+    <y>210</y>
+    <width>900</width>
+    <height>210</height>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>edCh_2</name>
+    <macros>
+      <L>CH2</L>
+      <N>2</N>
+      <P>CLFMCC:</P>
+    </macros>
+    <file>motorVoltPlot.bob</file>
+    <y>420</y>
+    <width>900</width>
+    <height>210</height>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>edCh_3</name>
+    <macros>
+      <L>CH3</L>
+      <N>3</N>
+      <P>CLFMCC:</P>
+    </macros>
+    <file>motorVoltPlot.bob</file>
+    <y>630</y>
+    <width>900</width>
+    <height>210</height>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>edCh_4</name>
+    <macros>
+      <L>CH4</L>
+      <N>4</N>
+      <P>CLFMCC:</P>
+    </macros>
+    <file>motorVoltPlot.bob</file>
+    <y>840</y>
+    <width>900</width>
+    <height>210</height>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>edCh_5</name>
+    <macros>
+      <L>CH5</L>
+      <N>5</N>
+      <P>CLFMCC:</P>
+    </macros>
+    <file>motorVoltPlot.bob</file>
+    <y>1010</y>
+    <width>900</width>
+    <height>210</height>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>edCh_6</name>
+    <macros>
+      <L>CH6</L>
+      <N>6</N>
+      <P>CLFMCC:</P>
+    </macros>
+    <file>motorVoltPlot.bob</file>
+    <y>1220</y>
+    <width>900</width>
+    <height>210</height>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>edCh_7</name>
+    <macros>
+      <L>CH7</L>
+      <N>7</N>
+      <P>CLFMCC:</P>
+    </macros>
+    <file>motorVoltPlot.bob</file>
+    <y>1430</y>
+    <width>900</width>
+    <height>210</height>
+  </widget>
+</display>

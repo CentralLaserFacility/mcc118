@@ -4,11 +4,20 @@ record(ai, "$(PVPREFIX):HA$(HA):CH$(CH)"){
   field(DTYP, "devMcc118")
   field(INP, "#C$(HA) S$(CH) @parm")
   field(SCAN, "$(SCAN)")
-  field(EGU, "V")
+  field(EGU, "V")  
+  field(MDEL, -1) #Realtime display - use scan for rate
+  #field(MDEL, 0.01) #Realtime deadband - for active display
+  #field(ADEL, 1)  #Archive deadband - DAQ recording to disk
   field(PREC, "2")
   field(PHAS, 0)
-  field("LOW", -5)
-  field("HIGH", 5)
-  field("LOLO", -9)
-  field("HIHI", 9)
+  field("LOW", 2.9)  #RedBorder alarm
+  field("HIGH", 9.2)  
+  field("LOLO", -12)  #Maximum ranges we will record {Orangeborder}
+  field("HIHI", 12)  
+  field("LOPR", -20)  #Maximal operating range of the device
+  field("HOPR", 20)
+  field(LSV, "MINOR")
+  field(HSV, "MINOR")
+  field(LLSV, "MAJOR")
+  field(HHSV, "MAJOR")
 }

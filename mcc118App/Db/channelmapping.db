@@ -1,67 +1,7 @@
-record("calcout", "$(P):$(R):GUN"){
-	field("DESC", "connected to CH1")
-	field("SCAN", ".1 second")
-	field("INPA", "$(P):$(R):HA0:CH1 PP")
-	field("CALC", "A*49.5 - 61.3")
-	field("EGU", "dBm")
-	field("LOPR", "-30")
-	field("HOPR", "10")
-}
-
-record("calcout", "$(P):$(R):BUNCHER"){
-        field("DESC", "connected to CH2")
-	field("SCAN", ".1 second")
-        field("INPA", "$(P):$(R):HA0:CH2 PP")
-	field("CALC", "A*52.2 - 65.5")
-        field("EGU", "dBm")
-	field("LOPR", "-30")
-	field("HOPR", "10")
-}
-
-record("calcout", "$(P):$(R):K1"){
-        field("DESC", "connected to CH3")
-	field("SCAN", ".1 second")
-        field("INPA", "$(P):$(R):HA0:CH3 PP")
-	field("CALC", "A*52.7 - 52.1")
-        field("EGU", "dBm")
-	field("LOPR", "-30")
-	field("HOPR", "10")
-}
-
-record("calcout", "$(P):$(R):K2"){
-        field("DESC", "connected to CH4")
-	field("SCAN", ".1 second")
-        field("INPA", "$(P):$(R):HA0:CH4 PP")
-	field("CALC", "A*55.5 - 61.6")
-        field("EGU", "dBm")
-	field("LOPR", "-30")
-	field("HOPR", "10")
-}
-
-record("calcout", "$(P):$(R):KICKER"){
-        field("DESC", "connected to CH0")
-	field("SCAN", ".1 second")
-        field("INPA", "$(P):$(R):HA0:CH0 PP")
-	field("CALC", "A*49.5 - 71.5")
-        field("EGU", "dBm")
-	field("LOPR", "-30")
-	field("HOPR", "10")
-}
-
-record("calcout", "$(P):$(R):PSU_TEMP"){
-        field("DESC", "connected to CH5")
-	field("SCAN", ".1 second")
-        field("INPA", "$(P):$(R):HA0:CH5 PP")
-	field("CALC", "A*100")
-        field("EGU", "degC")
-	field("LOPR", "0")
-	field("HOPR", "100")
-}
-
 record("calcout", "$(P):$(R):VOLT:5VP"){
         field("DESC", "connected to HAT1 CH0")
         field("SCAN", ".1 second")
-        field("INPA", "$(P):$(R):HA1:CH0 PP")
+        field("INPA", "$(P):$(R):HA0:CH0 PP")
         field("CALC", "A")
         field("EGU", "V")
         field("LOPR", "0")
@@ -69,9 +9,9 @@ record("calcout", "$(P):$(R):VOLT:5VP"){
 }
 
 record("calcout", "$(P):$(R):VOLT:5VN"){
-        field("DESC", "connected to HAT1 CH1")
+        field("DESC", "connected to HAT0 CH1")
         field("SCAN", ".1 second")
-        field("INPA", "$(P):$(R):HA1:CH1 PP")
+        field("INPA", "$(P):$(R):HA0:CH1 PP")
         field("CALC", "A")
         field("EGU", "V")
         field("LOPR", "-20")
@@ -79,9 +19,9 @@ record("calcout", "$(P):$(R):VOLT:5VN"){
 }
 
 record("calcout", "$(P):$(R):VOLT:15VP"){
-        field("DESC", "connected to HAT1 CH2")
+        field("DESC", "connected to HAT0 CH2")
         field("SCAN", ".1 second")
-        field("INPA", "$(P):$(R):HA1:CH2 PP")
+        field("INPA", "$(P):$(R):HA0:CH2 PP")
         field("CALC", "A*2")
         field("EGU", "V")
         field("LOPR", "0")
@@ -89,9 +29,9 @@ record("calcout", "$(P):$(R):VOLT:15VP"){
 }
 
 record("calcout", "$(P):$(R):VOLT:15VN"){
-        field("DESC", "connected to HAT1 CH3")
+        field("DESC", "connected to HAT0 CH3")
         field("SCAN", ".1 second")
-        field("INPA", "$(P):$(R):HA1:CH3 PP")
+        field("INPA", "$(P):$(R):HA0:CH3 PP")
         field("CALC", "A*2")
         field("EGU", "V")
         field("LOPR", "-20")
