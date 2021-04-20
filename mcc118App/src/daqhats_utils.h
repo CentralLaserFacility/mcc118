@@ -12,7 +12,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include <daqhats/daqhats.h>
+#include <daqhats.h>
 
 // Macros to handle error checking
 #define STOP_ON_ERROR(result)\
